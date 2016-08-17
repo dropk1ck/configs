@@ -16,7 +16,7 @@ nnoremap <F2> :set nonumber!<CR>
 nnoremap <F3> :set paste<CR>
 
 " highlight current line
-hi CursorLine ctermbg=Blue cterm=bold guibg=blue gui=bold
+hi CursorLine ctermbg=Blue ctermfg=White cterm=bold guibg=blue gui=bold
 
 set cursorline
 set wildmenu
