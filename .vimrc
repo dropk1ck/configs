@@ -10,6 +10,8 @@ set encoding=utf-8
 vnoremap . :norm.<CR>
 set number
 nnoremap <F2> :set nonumber!<CR>
+nnoremap <F3> :set paste<CR>
+hi CursorLine ctermbg=Blue cterm=bold guibg=blue gui=bold
 set cursorline
 set wildmenu
 set showmatch

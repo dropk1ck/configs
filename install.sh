@@ -1,11 +1,10 @@
 #!/bin/bash
 
 set -ex
-
-cp .bash_profile ~
-cp .bashrc ~
+PWD=`pwd`
+ln -s $PWD/.bash_profile ~
+ln -s $PWD/.bashrc ~
 mkdir -p ~/.config/fish
-cp config.fish ~/.config/fish/
-cp .gitconfig ~
-cp .tmux.conf ~
-cp .vimrc ~
+ln -s $PWD/config.fish ~/.config/fish/
+ln -s $PWD/.tmux.conf ~
+ln -s $PWD/.vimrc ~
