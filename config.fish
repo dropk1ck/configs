@@ -5,3 +5,4 @@ set -x PATH $PATH ~/bin
 set -x PYTHONPATH $PYTHONPATH ~/code
 status --is-interactive; and . (pyenv init -|psub)
 status --is-interactive; and . (rbenv init -|psub)
+alias vi vim
