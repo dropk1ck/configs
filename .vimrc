@@ -1,3 +1,4 @@
+set nocompatible
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -5,7 +6,9 @@ set smarttab
 set expandtab
 set noswapfile
 inoremap jk <ESC>
+filetype off
 syntax on
+filetype plugin on
 filetype plugin indent on
 set encoding=utf-8
 vnoremap . :norm.<CR>
@@ -27,10 +30,15 @@ set hlsearch
 
 " turn off search highlight
 nnoremap <space> :nohlsearch<CR>
-set tw=80
+"set tw=80
 
 " better navigation
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
+
+execute pathogen#infect()
+
+let g:vimwiki_list = [{'path': '~/code/wiki/',
+                    \ 'syntax': 'markdown', 'ext': '.md'}]
