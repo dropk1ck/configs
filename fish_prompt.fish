@@ -17,7 +17,7 @@ function fish_prompt
     if [ $venv ]
         echo -n "$byellow($venv)$normal $user_host $cwd > "
     else
-        echo -n "$cwd $user_host> "
+        echo -n "$cwd $user_host > "
     end
 end
         
