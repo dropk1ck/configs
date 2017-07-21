@@ -5,6 +5,7 @@ set softtabstop=4
 set smarttab
 set expandtab
 set noswapfile
+set term=xterm-256color
 inoremap jk <ESC>
 filetype off
 syntax on
@@ -38,7 +39,3 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
-execute pathogen#infect()
-
-let g:vimwiki_list = [{'path': '~/code/wiki/',
-                    \ 'syntax': 'markdown', 'ext': '.md'}]
