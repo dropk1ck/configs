@@ -1,3 +1,4 @@
+color default
 set nocompatible
 set tabstop=4
 set shiftwidth=4
@@ -5,7 +6,6 @@ set softtabstop=4
 set smarttab
 set expandtab
 set noswapfile
-set term=xterm-256color
 inoremap jk <ESC>
 filetype off
 syntax on
@@ -31,7 +31,6 @@ set hlsearch
 
 " turn off search highlight
 nnoremap <space> :nohlsearch<CR>
-"set tw=80
 
 " better navigation
 nnoremap <C-j> <C-w>j
