@@ -1,4 +1,4 @@
-color default
+color delek 
 set nocompatible
 set tabstop=4
 set shiftwidth=4

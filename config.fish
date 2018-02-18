@@ -5,12 +5,6 @@ if test -d ~/.pyenv
     status --is-interactive; and . (pyenv virtualenv-init -|psub)
 end
 
-if test -d ~/.rbenv
-    set -x RBENV_ROOT ~/.rbenv
-    set -x PATH $PATH $RBENV_ROOT/bin 
-    status --is-interactive; and . (rbenv init -|psub)
-end
-
 if test -d ~/bin
     set -x PATH $PATH ~/bin
 end
