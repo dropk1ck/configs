@@ -28,6 +28,8 @@ set wildmenu
 set showmatch
 set incsearch
 set hlsearch
+set splitbelow
+set splitright
 
 " turn off search highlight
 nnoremap <space> :nohlsearch<CR>
