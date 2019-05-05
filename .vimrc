@@ -10,7 +10,6 @@ set expandtab
 set noswapfile
 inoremap jk <ESC>
 filetype off
-execute pathogen#infect()
 syntax on
 filetype plugin on
 filetype plugin indent on
@@ -46,5 +45,3 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
-let g:racer_experimental_completer = 1
-autocmd FileType rust let g:SuperTabDefaultCompletionType = "context"
