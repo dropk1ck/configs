@@ -1,8 +1,8 @@
 if test -d ~/.pyenv
     set -x PYENV_ROOT ~/.pyenv
     set -x PATH $PATH $PYENV_ROOT/bin
-    status --is-interactive; and . (pyenv init -|psub)
-    status --is-interactive; and . (pyenv virtualenv-init -|psub)
+    status --is-interactive; and source (pyenv init -|psub)
+    status --is-interactive; and source (pyenv virtualenv-init -|psub)
 end
 
 if test -d ~/bin
