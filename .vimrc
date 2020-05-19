@@ -1,5 +1,3 @@
-color desert 
-set t_Co=256
 set nocompatible
 set tabstop=4
 set shiftwidth=4
@@ -44,4 +42,3 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
-
