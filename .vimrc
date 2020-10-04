@@ -44,3 +44,5 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+
+set mouse=a
