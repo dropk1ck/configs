@@ -15,5 +15,5 @@ mkdir -p ~/.config/nvim/after/syntax
 mkdir -p ~/.config/nvim/colors
 ln -f -s $PWD/init.vim ~/.config/nvim/init.vim
 ln -f -s $PWD/dark_plus.vim ~/.config/nvim/colors/dark_plus.vim
-ln -f -s $PWD/cpp.vim ~/.config/after/syntax/cpp.vim
-ln -f -s $PWD/c.vim ~/.config/after/syntax/c.vim
+ln -f -s $PWD/cpp.vim ~/.config/nvim/after/syntax/cpp.vim
+ln -f -s $PWD/c.vim ~/.config/nvim/after/syntax/c.vim
